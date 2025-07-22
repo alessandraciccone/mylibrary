@@ -1,5 +1,5 @@
 #root{
-  background-color:  rgb(7, 8, 8);
+  background-color:  rgb(0, 0, 0)
 }
 .Card{
   width:100%
@@ -13,10 +13,22 @@
   border-top-right-radius: 4px; /* opzionale: migliora look */
 }
 .button:hover {
-  background-color: rgb(109, 219, 6) !important;
-  border:none !important
+  background-color: rgb(154, 133, 248) !important;
+  border:none !important;
+  cursor:pointer !important
 }
 
-body{
-  height:100%
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
 }

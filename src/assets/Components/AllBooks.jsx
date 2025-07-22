@@ -37,7 +37,7 @@ const AllBooks = () => {
                     </Card.Text>
                   </div>
                   <div className="d-flex justify-content-center mt-auto">
-                    <Button className=" button text-white bg-black">
+                    <Button className=" button text-white bg-black mt-2">
                       Aggiungi al carrello
                     </Button>
                   </div>

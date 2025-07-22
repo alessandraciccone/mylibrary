@@ -3,7 +3,7 @@ const MyFooter = () => {
 
   return (
     <footer className="bg-dark h-100">
-      <p className=" text-light text-center">
+      <p className=" text-light text-center mt-3">
         Nebbia delle Rune- {currentYear}
       </p>
     </footer>
