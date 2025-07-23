@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const MyNav = () => {
   return (
-    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+    <Navbar expand="lg" bg="black" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href="#home">Nebbia delle Rune</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
